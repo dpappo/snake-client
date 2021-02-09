@@ -20,6 +20,10 @@ const setupInput = function (conn) {
         conn.write("Move: down");
       } else if (key === "d") {
         conn.write("Move: right");
+      } else if (key === "e") {
+        conn.write("Say: whee!!");
+      } else if (key === "q") {
+        conn.write("Say: dang");
       }
     });
   };
